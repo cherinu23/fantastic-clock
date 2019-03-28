@@ -87,7 +87,7 @@ function arataTimp() {
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/15.jpg";
+            img_tag.src = "img/15.jpg";
 
         } else if (h == 16) {
             var img_container = document.getElementById("interfataCeas");
