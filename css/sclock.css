@@ -1,0 +1,44 @@
+
+#interfataCeas > img {  
+display: block;
+width: 100%;
+}
+.clock {
+color: #000;
+font-size: 60px;
+letter-spacing: 7px;
+/* background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%); */
+text-align: center;
+}
+.text-center{
+text-align: center;
+}
+@font-face{
+font-family:'digital-clock-font';
+src: url('file:///D:/original zip/scrt/print/fantastic-clock/font/LOOPY.TTF');
+}
+
+@media (min-width: 768px) {
+.container-small {
+width: 300px;
+}
+
+} 
+@media (min-width: 992px) {
+.container-small {
+width: 500px;
+} 
+} 
+@media (min-width: 1200px) {
+.container-small {
+width: 700px;
+}
+}
+
+.container-small {
+max-width: 100%;
+padding-top: 3%;
+}
+body { 
+background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
