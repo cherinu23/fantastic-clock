@@ -33,7 +33,7 @@ function arataTimp() {
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/8.jpg";
+            img_tag.src = "img/8.jpg";
 
         } else if (h == 9) {
             var img_container = document.getElementById("interfataCeas");
@@ -41,14 +41,14 @@ function arataTimp() {
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/9.jpg";
+            img_tag.src = "img/9.jpg";
         } else if (h == 10) {
             var img_container = document.getElementById("interfataCeas");
             var img_tag = document.createElement("img");
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/10.jpg";
+            img_tag.src = "img/10.jpg";
 
         } else if (h == 11) {
             var img_container = document.getElementById("interfataCeas");
@@ -56,14 +56,14 @@ function arataTimp() {
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/11.jpg";
+            img_tag.src = "img/11.jpg";
         } else if (h == 12) {
             var img_container = document.getElementById("interfataCeas");
             var img_tag = document.createElement("img");
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/12.jpg";
+            img_tag.src = "img/12.jpg";
 
         } else if (h == 13) {
             var img_container = document.getElementById("interfataCeas");
@@ -71,7 +71,7 @@ function arataTimp() {
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/13.jpg";
+            img_tag.src = "img/13.jpg";
 
         } else if (h == 14) {
             var img_container = document.getElementById("interfataCeas");
@@ -79,7 +79,7 @@ function arataTimp() {
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/14.jpg";
+            img_tag.src = "img/14.jpg";
 
         } else if (h == 15) {
             var img_container = document.getElementById("interfataCeas");
@@ -95,7 +95,7 @@ function arataTimp() {
             img_tag.onload = function () {
                 img_container.appendChild(img_tag);
             }
-            img_tag.src = "file:///D:/original zip/scrt/print/fantastic-clock/img/16.jpg";
+            img_tag.src = "img/16.jpg";
 
         }
 
