@@ -3,15 +3,15 @@ function arataTimp() {
     var h = today.getHours();
     var m = today.getMinutes();
     var s = today.getSeconds();
-    var session = "AM";
+    var session = "PM";
     loadimg();
     if (h == 0) {
-        h = 12;
+        h = 24;
     }
 
-    if (h > 12) {
-        h = h - 12;
-        session = "PM";
+    if (h > 24) {
+        h = h - 24;
+        session = "AM";
     }
 
     h = (h < 10) ? "0" + h : h;
